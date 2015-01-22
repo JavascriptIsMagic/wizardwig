@@ -1,0 +1,25 @@
+{
+  "name": "wizardwig",
+  "version": "0.0.1",
+  "homepage": "https://github.com/keen5336/wizardwig",
+  "authors": [
+    "Adam Kilber <keen5336@gmail.com>"
+  ],
+  "description": "minimalistic, transparent jquery WYSIWYG editor",
+  "main": "dist/wizardwig.js",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "wysiwyg",
+    "jquery"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
