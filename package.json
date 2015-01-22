@@ -1,6 +1,6 @@
 {
   "name": "wizardwig",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "minimalistic, transparent jquery WYSIWYG editor",
   "main": "dist/wizardwig.js",
   "repository": {
