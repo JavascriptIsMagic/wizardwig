@@ -1,7 +1,7 @@
 $.fn.wizardwig = (options) ->
   new $.Wizardwig @[0], options
   @
-$.Wizardwig = class wysiwyg
+$.Wizardwig = class Wizardwig
   constructor: (@element, options = {}) ->
     @element = $ element
         .css 'max-height', '20rem'
