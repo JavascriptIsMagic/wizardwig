@@ -33,7 +33,7 @@ function version(importance) {
 			__dirname + '/bower.json'])
 		.pipe(bump({type: importance}))
 		.pipe(gulp.dest(__dirname + '/'))
-		.pipe(git.commit('releasing ' + importance + ' version.'))
+		.pipe(git.commit(':octopus: releasing ' + importance + ' version.'))
 		.pipe(filter('package.json'))
 		.pipe(tag());
 }
